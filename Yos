@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>My Necklace!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8"/>
+  </head>
+
+  <body>
+    <h1>My Necklace</h1>
+    
+    <p>My necklace is a gift from my parents, and I received it when I graduated from high school. I wear this necklace all the time, and I never take it off. It represents family, and is somewhat of a safety-blanket. </p>
+
+  <br>
+  
+
+    <p><b>Specifications.</b></p>
+
+    <!--This is a comment. Comments are not displayed in the browser-->
+<br>
+    <ol>
+      <li>Weight: Fairly light, approx. 2 grams</li>
+      <li> Height: 13” long</li>
+      <li>Texture: Angular, smooth, </li>
+      <li>Color: Gold</li>
+      <li>Dimension: 13” chain</li>
+      <li>Material: Gold chain</li>
+      <li>SSN: Sadly, it’s not alive. </li>
+      <li>Flammable: No</li>
+      <li> Age: One year
+        <li>Throwable: Yes</li>
+        <li>Emotional Value: 8/10</li>
+     <li>Fragility: Not fragile unless stretched. </li>
+     <li>Monetary Value: $200</li>
+        <li>Last 4 Digits of Password: 6789 </li>
+         <li>Name: Chain</li>
+     <li>Smell: Metallic</li>
+        <li> Magnetic: No</li>
+     <li>The Origin: Jewelry store in Blacksburg, VA</li>
+       <li>Taste: Metallic, salty</li>
+    Whether or not it Plays a Song: No</li>
+    </li>
+      <li>Ordered</li>
+      <li>List</li>This is an
+    </ol>
+
+    <ul>
+      <li>This is an</li>
+      <li>Unordered</li>
+      <li>List</li>
+    </ul>
+
+    <p>The <code>code element</code> example.</p>
+
+    <p>The <mark>mark element</mark> example.</p>
+
+    <p>The <small>small element</small> example.</p>
+
+    <p>The <sub>sub element</sub> example.</p>
+
+    <p>The <sup>sup element</sup> example.</p>
+
+    <p><a href="http://www.google.com">This is a link.</a></p>
+
+    <img src="https://i.imgur.com/97lEXlJ.jpg">
+
+    <p><a href="page1.html">Page 01</a></p>
+    <p><a href="page2.html">Page 02</a></p>
+    <p><a href="page3.html">Page 03</a></p>
+    <p><a href="page4.html">Page 04</a></p>
+    <p><a href="page5.html">Page 05</a></p>
+  </body>
+
+</html>
