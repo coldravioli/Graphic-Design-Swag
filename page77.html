@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zucker</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <style>
+    body {
+  margin: 0;
+}
+
+#canvas {
+  width: 300px;
+  height: 400px;
+  margin: 0px auto;
+}
+
+#tophair {
+  width: 350px;
+  height: 150px;
+  background: rgb(103, 41, 5);
+  border-radius: 50% 50% 25% 2%;
+}
+
+#skin {
+  position: absolute;
+  width: 325px;
+  height: 345px;
+  top: 10px;
+  background: rgb(255, 196, 124);
+  border-radius: 60% 60% 50% 50%;
+  box-shadow: inset 0 0 50px rgb(198, 144, 79);
+}
+
+#curlyhair1 {
+  position: absolute;
+  width: 80px;
+  height: 100px;
+  top: -15px;
+  left: -8px;
+  background: rgb(103, 41, 5);
+  border-radius: 3% 3% 50% 3%;
+  transform: rotate(15deg);
+}
+
+
+#eyebrow1 {
+  position: absolute;
+  width: 70px;
+  height: 10px;
+  background: black;
+  top: 60px;
+  left: 50px;
+  transform: rotate(-15deg);
+}
+
+
+#eye1 {
+  position: absolute;
+  width: 55px;
+  height: 35px;
+  background: rgb(41, 41, 41);
+  top: 130px;
+  left: 50px;
+  border-radius: 45% 45% 45% 45%;
+  box-shadow: inset 0 0 20px black;
+  transform: rotate(-12deg)
+}
+
+#eye2 {
+  position: absolute;
+  width: 55px;
+  height: 35px;
+  background: rgb(41, 41, 41);
+  top: 130px;
+  right: 50px;
+  border-radius: 45% 45% 45% 45%;
+  box-shadow: inset 0 0 20px black;
+  transform: rotate(12deg)
+}
+
+#freckk {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+background: rgb(12, 170, 23);
+
+  top: 195px;
+  right: 54px;
+  border-radius: 50%;
+}
+#freckk3 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+background: rgb(12, 170, 23);
+
+  top: 250px;
+  right: 66px;
+  border-radius: 50%;
+}
+#freckk2 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+background: rgb(12, 170, 23);
+
+  top: 225px;
+  right: 22px;
+  border-radius: 50%;
+}
+
+#freck {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+background: rgb(12, 170, 23);
+
+  top: 195px;
+  left: 54px;
+  border-radius: 50%;
+}
+#freck3 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+background: rgb(12, 170, 23);
+
+  top: 250px;
+  left: 66px;
+  border-radius: 50%;
+}
+#freck2 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+background: rgb(12, 170, 23);
+
+  top: 225px;
+  left: 22px;
+  border-radius: 50%;
+}
+
+#lipp {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+background: black;
+  top: 204px;
+  left: 123px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 90px rgb(70, 22, 22);
+
+}
+
+#lips {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+background: rgb(242, 137, 118);
+box-shadow: inset  90 px rgb(70, 22, 22);
+
+  top: 180px;
+  left: 100px;
+  border-radius: 50%;
+}
+
+#ear1 {
+  position: absolute;
+  width: 110px;
+  height: 65px;
+  background: rgb(103, 41, 5);
+  left: 54px;
+  top: 50px;
+  border-radius: 50% 50% 50% 50%;
+  
+}
+#ear4 {
+  position: absolute;
+  width: 110px;
+  height: 65px;
+  background: rgb(103, 41, 5);
+  right: 54px;
+  top: 50px;
+  border-radius: 50% 50% 50% 50%;
+  
+}
+#ear5 {
+    position: absolute;
+  width: 50px;
+  height: 80px;
+  background: rgb(103, 41, 5);
+  right: 10px;
+  top: 28px;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(-15deg)
+}
+
+
+#ear9 {
+  position: absolute;
+  width: 50px;
+  height: 80px;
+  background: rgb(103, 41, 5);
+  left: 13px;
+  top: 28px;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(15deg)
+}
+
+#ear2 {
+  position: absolute;
+  width: 280px;
+  height: 90px;
+  background: rgb(103, 41, 5);
+  left: 25px;
+  top: 0px;
+  border-radius:50% 50% 3% 3%;
+ 
+}
+
+#shoulder {
+  position: absolute;
+  width: 265px;
+  height: 345px;
+  top: 300px;
+  background: rgb(56, 29, 231);
+left: 600px;
+  border-radius: 60% 60% 50% 50%;
+  box-shadow: inset 0 0 50px rgb(2, 15, 85);
+}
+#tie {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 334px;
+  background: rgb(231, 29, 29);
+  right: 115px;
+
+  border-radius: 60% 0% 0% 60%;
+}
+
+#tie2 {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 334px;
+  background: rgb(231, 29, 29);
+  left: 120px;
+
+  border-radius: 0% 60% 60% 0%;
+}
+  </style>
+</head>
+
+<body>
+
+  <div id="canvas">
+    <div id="shoulder"></div>
+
+      <div id="skin">
+        <div id="eye1"></div>
+        <div id="eye2"></div>
+        <div id="eyebrow1"></div>
+        <div id="eyebrow2"></div>
+        <div id="iris1"></div>
+        <div id="iris2"></div>
+        <div id="pupil1"></div>
+        <div id="pupil2"></div>
+        <div id="nose"></div>
+        <div id="lips"></div>
+        <div id="freck"></div>
+        <div id="freck2"></div>
+        <div id="freck3"></div>
+        <div id="freckk"></div>
+        <div id="freckk2"></div>
+        <div id="freckk3"></div>
+        <div id="lipp"></div>
+        <div id="ear1"></div>
+        <div id="ear2"></div>
+        <div id="ear4"></div>
+        <div id="ear5"></div>
+        <div id="ear9"></div>
+        <div id="tie"></div>
+        <div id="tie2"></div>
+
+        
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
